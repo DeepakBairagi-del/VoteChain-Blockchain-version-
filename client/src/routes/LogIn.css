@@ -1,0 +1,145 @@
+.App {
+    display: flex;
+    align-items: center;
+    
+    
+    height: 100vh;
+    width: 100vw;
+  }
+  .first-half{
+    flex:3;
+    height: 100vh;
+  }
+  .main-image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    
+  }
+  .form{
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+  }
+  .input{
+    
+    border-radius: 15px;
+    padding: 6px 10px;
+    margin-bottom: 15px;
+  }
+  .button{
+    background-color: rgb(14, 88, 152);
+    color: white;
+    width: 20vw;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 15px;
+    margin:5px 0px 5px 0px;
+    transition-delay: 120ms;
+  }
+  .button:hover{
+    transform: scale(1.1);
+  }
+  .button2{
+    background-color: rgb(14, 88, 152);
+    color: white;
+    border: none;
+    width: 15vw;
+    padding: 6px 10px;
+    border-radius: 5px;
+    margin:5px 15px 15px 15px;
+    transition-delay: 120ms;
+  }
+  .button2:hover{
+    transform: scale(1.2);
+  }
+  .button3{
+    font-size: 12px;
+    width: 20vw;
+    border: 2px solid rgb(14, 88, 152);
+    border-radius: 15px;
+    padding: 7px;
+    font-weight: bold;
+    color: rgb(14, 88, 152);
+    background: none;
+    transition-delay: 120ms;
+  }
+  .button3:hover{
+    transform: scale(1.1);
+  }
+  .CandidateButton{
+    background-color: rgb(14, 88, 152);
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-top:30px ;
+  }
+ 
+  .second-half{
+    background-color: rgb(36, 37, 46);
+    flex: 2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .SideBar{
+    height: 100vh;
+    background-color:rgb(36, 37, 46) ;
+    padding: 5px;
+    
+  }
+  
+  
+  .SideBarTop{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .Option{
+    display: flex;
+    align-items: center;
+    
+  }
+  .Option:hover{
+    background-color: rgb(14, 88, 152);
+    cursor: pointer;
+    border-top-left-radius: 50px ;
+    border-bottom-left-radius: 50px;
+  }
+   #active{
+    background-color: rgb(16, 16, 19);
+    cursor: pointer;
+    border-top-left-radius: 50px ;
+    border-bottom-left-radius: 50px;
+  }
+  .header{
+    background-color:rgb(36, 37, 46) ;
+    padding: 2px;
+    color: white;
+    font-size: 17px;
+    padding-left: 15px;
+  }
+  .AddCandidateContent{
+    background-color: black;
+    padding: 15px;
+    margin: 20px 20px 0px 20px;
+    color: white;
+    border-radius: 5px;
+    border-bottom: 3px solid lightgray;
+  }
+  .CandidateDetails{
+    background-color: white;
+    padding: 15px;
+    margin: 20px 20px 0px 20px;
+    color: black;
+    border-radius: 5px;
+    border-bottom: 3px solid lightgray;
+  }
+  .WaitingImage{
+    height: 60vh;
+    width: 60vw;
+  }
+  
