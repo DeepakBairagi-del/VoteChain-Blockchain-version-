@@ -37,7 +37,7 @@ const LogIn = () => {
         />
         <p style={{color: 'gray',marginTop:'5px',marginBottom:'7px'}}>or</p>
         <Link to='/SignUp'>
-          <button onClick={() => {}} className='button3' >CREATE A NEW ACCOUNT</button>
+          <button  className='button3' >CREATE A NEW ACCOUNT</button>
         </Link>
       </div>
     </div>

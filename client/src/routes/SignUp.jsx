@@ -38,7 +38,7 @@ const SignUp = () => {
           handleSubmit= {handleSignUp}
         />
         <Link to='/LogIn'>
-          <button onClick=' ' style={{fontSize:'12px',marginTop:'20px',background:'none',border:'none', fontWeight:'bold', color:'rgb(14, 88, 152)',}}>ALREADY HAVE AN ACCOUNT ?</button>
+          <button  style={{fontSize:'12px',marginTop:'20px',background:'none',border:'none', fontWeight:'bold', color:'rgb(14, 88, 152)',}}>ALREADY HAVE AN ACCOUNT ?</button>
         </Link>
       </div>
     </div>
