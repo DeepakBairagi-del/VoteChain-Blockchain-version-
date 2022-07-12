@@ -16,7 +16,7 @@ const LogIn = () => {
       window.localStorage.setItem('currentUser', JSON.stringify(founditem))
       setEmail('')
       setPassword('')
-      window.open('/UserHome/VotingArea')
+      window.open('/VotingArea')
     }else if (founditem && password != founditem.password){
       setPassword('')
       toast.error(`Wrong password for ${email}`)

@@ -8,22 +8,22 @@ const AdminNavOptions = [
     {
       title:'Candidate Details',
       icon: AccountCircleIcon,
-      link:'/AdminHome/CandidateDetails',
+      link:'/CandidateDetails',
     },
     {
       title:'Add Candidates',
       icon: PersonAddIcon,
-      link:'/AdminHome/AddCandidate',
+      link:'/AddCandidate',
     },
     {
       title:'Change State',
       icon: AutoModeIcon,
-      link:'/AdminHome/CurrentState',
+      link:'/CurrentState',
     },
     {
       title:'Analytics',
       icon: LeaderboardIcon,
-      link:'/AdminHome/Analytics',
+      link:'/Analytics',
     },
     {
       title:'LogOut',

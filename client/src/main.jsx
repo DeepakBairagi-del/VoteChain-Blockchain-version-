@@ -27,14 +27,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path='LogIn' element={<LogIn/>}/>
           <Route path='AdminLogIn' element={<AdminLogIn/>}/>
           <Route path='SignUp' element={<SignUp/>}/>
-          <Route path='AdminHome/CurrentState' element={<CurrentState/>}/>
-          <Route path='AdminHome/AddCandidate' element={<AddCandidate/>}/>
-          <Route path='AdminHome/Analytics' element={<Analytics/>}/>
-          <Route path='AdminHome/CandidateDetails' element={<CandidateDetails/>}/>
-          <Route path='UserHome/VotingArea' element={<VotingArea/>}/>
-          <Route path='UserHome/VoterRegistration' element={<VoterRegistration/>}/>
-          <Route path='UserHome/Result' element={<Result/>}/>
-          <Route path='UserHome/About' element={<About/>}/>
+          <Route path='CurrentState' element={<CurrentState/>}/>
+          <Route path='AddCandidate' element={<AddCandidate/>}/>
+          <Route path='Analytics' element={<Analytics/>}/>
+          <Route path='CandidateDetails' element={<CandidateDetails/>}/>
+          <Route path='VotingArea' element={<VotingArea/>}/>
+          <Route path='VoterRegistration' element={<VoterRegistration/>}/>
+          <Route path='Result' element={<Result/>}/>
+          <Route path='About' element={<About/>}/>
         </Routes>
       </BrowserRouter>
     </StateContext>

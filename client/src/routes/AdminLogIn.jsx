@@ -13,7 +13,7 @@ const AdminLogIn = () => {
       window.localStorage.setItem('admin', email)
       setEmail('')
       setPassword('')
-      window.open('/AdminHome/CurrentState')
+      window.open('/CurrentState')
     }else{
       toast.error('Wrong email or password please check about section in user login')
     }

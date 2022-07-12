@@ -9,22 +9,22 @@ const UserNavOptions = [
     {
         title:'Voter Registration',
         icon: HowToRegIcon,
-        link: '/UserHome/VoterRegistration',
+        link: '/VoterRegistration',
     },
     {
         title:'Voting Area',
         icon: HowToVoteSharpIcon,
-        link: '/UserHome/VotingArea',
+        link: '/VotingArea',
     },
     {
         title:'Result',
         icon: AssessmentIcon,
-        link: '/UserHome/Result',
+        link: '/Result',
     },
     {
         title:'About',
         icon: InfoIcon,
-        link: '/UserHome/About',
+        link: '/About',
     },
     {
         title:'LogOut',

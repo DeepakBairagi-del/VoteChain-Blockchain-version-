@@ -1,5 +1,5 @@
 import React from 'react'
-import './LogIn'
+import './LogIn.css'
 import Navbar from '../components/Navbar'
 import AdminNavOptions from '../components/AdminNavOptions'
 import ReactFC from "react-fusioncharts";
