@@ -1,8 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Form from '../components/Form'
 import MainImage from '../components/MainImage'
-import './LogIn.css'
 import { useStateContext } from '../../context/stateContext'
 import toast from 'react-hot-toast'
 

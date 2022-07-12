@@ -5,6 +5,7 @@ import App from './routes/App'
 import LogIn from './routes/LogIn'
 import AdminLogIn from './routes/AdminLogIn'
 import './index.css'
+import './routes/LogIn.css'
 import SignUp from './routes/SignUp';
 import CurrentState from './routes/CurrentState';
 import AddCandidate from './routes/AddCandidate';

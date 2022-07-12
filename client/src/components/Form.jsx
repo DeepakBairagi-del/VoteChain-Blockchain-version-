@@ -1,6 +1,4 @@
 import React from 'react'
-import '../routes/Login'
-import { Link } from 'react-router-dom'
 import { useStateContext } from '../../context/stateContext'
 
 const Form = ({MainText,ShowUserName,ButtonText,NextRoute,handleSubmit}) => {   

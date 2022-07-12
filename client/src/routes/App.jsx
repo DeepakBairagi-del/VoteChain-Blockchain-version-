@@ -1,4 +1,3 @@
-import './LogIn.css'
 import { Link } from 'react-router-dom'
 import MainImage from '../components/MainImage'
 const App = () =>{

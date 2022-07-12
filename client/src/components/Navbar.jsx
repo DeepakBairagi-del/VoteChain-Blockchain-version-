@@ -1,5 +1,4 @@
 import React from 'react'
-import '../routes/LogIn'
 import { Link } from 'react-router-dom';
 import Avatar from '@mui/material/Avatar';
 import { useStateContext } from '../../context/stateContext';

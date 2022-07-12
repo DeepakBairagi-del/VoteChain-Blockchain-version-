@@ -2,7 +2,6 @@ import React,{useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import MainImage from '../components/MainImage'
 import Form from '../components/Form'
-import './LogIn.css'
 import { useStateContext } from '../../context/stateContext'
 import toast from 'react-hot-toast'
 
